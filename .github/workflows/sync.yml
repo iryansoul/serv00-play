@@ -34,7 +34,7 @@ jobs:
           source_repo: 'frankiejun/serv00-play'
           source_branch: 'main'
           destination_branch: 'main'
-          github_token: ${{ secrets.PERSONAL_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           exclude: |
             .github/workflows/**
 

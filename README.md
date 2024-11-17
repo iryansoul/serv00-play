@@ -1,4 +1,4 @@
-# serv00 上的一些应用，包括 vless/argo+vmess/vmess+ws/hy2/socks5/mtproto/alist/哪吒探针 等, 自动化部署、批量保号、进程防杀、消息推送
+# serv00 上的一些应用，包括 argo+vmess/vmess+ws/hy2/socks5/mtproto/alist/哪吒探针/sun-panel/webssh 等, 自动化部署、批量保号、进程防杀、消息推送
 
 💖 如果你在用这个项目，请给我打个 star，好让我知道有多少人从这个项目中受益。
 
@@ -84,7 +84,7 @@ _捐赠将是对我最大的支持，它将激励我持续的创新和创作。_
 
 ## 项目鸣谢
 
-[qwer-search](https://github.com/qwer-search) 、[k0baya](https://github.com/k0baya) 、[eooce](https://github.com/eooce)、[nrootconauto](https://github.com/nrootconauto/MrChrootBSD)
+[eooce](https://github.com/eooce)、[nrootconauto](https://github.com/nrootconauto/MrChrootBSD)、[huashengdun](https://github.com/huashengdun/webssh)、[hslr-s](https://github.com/hslr-s/sun-panel)
 
 ## 免责声明
 

@@ -87,8 +87,8 @@ reply_markup='{
       ]
     ]
   }'
-#echo "reply_markup: $reply_markup"
-#echo "telegramBotToken:$telegramBotToken,telegramBotUserId:$telegramBotUserId"
+echo "reply_markup: $reply_markup"
+echo "telegramBotToken:$telegramBotToken,telegramBotUserId:$telegramBotUserId"
 if [[ -z ${telegramBotToken} ]]; then
   echo "未配置TG推送"
 else
@@ -101,7 +101,7 @@ else
     echo 'TG_api请求超时,请检查网络是否重启完成并是否能够访问TG'
     exit 1
   fi
-  #echo "res:$res"
+  echo "res:$res"
   resSuccess=$(echo "$res" | jq -r ".ok")
   if [[ $resSuccess = "true" ]]; then
     echo "TG推送成功"
